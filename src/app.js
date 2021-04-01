@@ -22,7 +22,7 @@ hbs.registerPartials(partialsPath)
 app.use(express.static(publicDirPath))
 
 app.get('/.well-known/acme-challenge/:content', function(req, res) {
-    res.send('IGx_Qk3Sh0T8_O-A5jjwS_94VovagI75U1V9TxTqlgk.-InO1_-YaVANbYLSDNlRlBRSkXY5iH01fqEyEXGj9UI')
+    res.send('eGkNCyyPQbzMTNxkHCg6B4_O1rMCjSPStex7dLvA-Ts.-InO1_-YaVANbYLSDNlRlBRSkXY5iH01fqEyEXGj9UI')
   })
 
 app.get('', (req, res) => {
